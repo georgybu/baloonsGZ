@@ -14,6 +14,6 @@ export class CommentPageComponent implements OnInit {
   }
 
   goHome() {
-    this.router.navigate(['/map']);
+    this.router.navigate(['/home']);
   }
 }
