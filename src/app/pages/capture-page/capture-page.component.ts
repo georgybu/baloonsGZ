@@ -20,7 +20,7 @@ export class CapturePageComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if (this.video.nativeElement) {
+    if (this.video && this.video.nativeElement) {
       this.video.nativeElement.pause();
     }
   }
